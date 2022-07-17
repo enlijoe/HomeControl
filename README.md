@@ -14,3 +14,7 @@ This is software to manage the electricty usage of a house through monitoring of
 # Hardware Tool Chain
  - KiCad
  
+# Dependicies (Other git projects)
+Make sure you place all git repos into same base directrory as that is an assumption that is made when referencing them
+ - KiCadLib (git@github.com:enlijoe/KiCadLib.git)
+ 
