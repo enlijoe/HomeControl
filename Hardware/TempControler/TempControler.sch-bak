@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 7
+Sheet 1 6
 Title "TempControler"
 Date ""
 Rev "0.0.1"
@@ -44,7 +44,7 @@ F6 "WR" U L 3050 2000 50
 F7 "RD" U L 3050 2100 50 
 $EndSheet
 $Sheet
-S 4450 1400 1000 450 
+S 900  2300 900  500 
 U 62D479C8
 F0 "Power" 50
 F1 "Power.sch" 50
@@ -58,7 +58,7 @@ F2 "Temp" U L 3050 2550 50
 F3 "Humidity" U L 3050 2650 50 
 $EndSheet
 $Sheet
-S 800  1450 1000 500 
+S 800  1400 1000 650 
 U 62D5AD66
 F0 "Serial Programmer" 50
 F1 "ESP32PGM.sch" 50
@@ -91,10 +91,4 @@ Wire Wire Line
 	3050 2550 2800 2550
 Wire Wire Line
 	3050 2650 2800 2650
-$Sheet
-S 800  2150 1000 650 
-U 62E5786F
-F0 "Thermostat" 50
-F1 "Thermostat.sch" 50
-$EndSheet
 $EndSCHEMATC
