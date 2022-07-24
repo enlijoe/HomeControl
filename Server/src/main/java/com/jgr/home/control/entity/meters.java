@@ -12,52 +12,38 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "meters")
 public class meters {
-	//
-	// private fields
-	//
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+	private Long id;
 	
 	@Column(name = "name", length = 10)
 	private String name;
 	
-	@Column(name = "energy_exported")
-	private long energy_exported;
+	@Column(name = "energyExported")
+	private Long energyExported;
 	
-	@Column(name = "energy_imported")
-	private long energy_imported;
+	@Column(name = "energyImported")
+	private Long energyImported;
 	
-	@Column(name = "last_phase_energy_communication_time")
-	private Date last_phase_energy_communication_time;
+	@Column(name = "lastPhaseEnergyCommunicationTime")
+	private Date lastPhaseEnergyCommunicationTime;
 	
-	
-	//
-	// Default Constructor
-	//
 	public meters() {
 		
 	}
 	
-	//
-	// Parameterized Constructor
-	//
 	public meters(String name, long energy_exported, long energy_imported, Date last_phase_energy_communication_time) {
 		this.name = name;
-		this.energy_exported = energy_exported;
-		this.energy_imported = energy_imported;
-		this.last_phase_energy_communication_time = last_phase_energy_communication_time;
+		this.energyExported = energy_exported;
+		this.energyImported = energy_imported;
+		this.lastPhaseEnergyCommunicationTime = last_phase_energy_communication_time;
 	}
-	
-	
-	//
-	// Getters and Setters
-	//
-	public long getId() {
+
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -69,28 +55,27 @@ public class meters {
 		this.name = name;
 	}
 
-	public long getEnergy_exported() {
-		return energy_exported;
+	public Long getEnergyExported() {
+		return energyExported;
 	}
 
-	public void setEnergy_exported(long energy_exported) {
-		this.energy_exported = energy_exported;
+	public void setEnergyExported(Long energyExported) {
+		this.energyExported = energyExported;
 	}
 
-	public long getEnergy_imported() {
-		return energy_imported;
+	public Long getEnergyImported() {
+		return energyImported;
 	}
 
-	public void setEnergy_imported(long energy_imported) {
-		this.energy_imported = energy_imported;
+	public void setEnergyImported(Long energyImported) {
+		this.energyImported = energyImported;
 	}
 
-	public Date getLast_phase_energy_communication_time() {
-		return last_phase_energy_communication_time;
+	public Date getLastPhaseEnergyCommunicationTime() {
+		return lastPhaseEnergyCommunicationTime;
 	}
 
-	public void setLast_phase_energy_communication_time(Date last_phase_energy_communication_time) {
-		this.last_phase_energy_communication_time = last_phase_energy_communication_time;
+	public void setLastPhaseEnergyCommunicationTime(Date lastPhaseEnergyCommunicationTime) {
+		this.lastPhaseEnergyCommunicationTime = lastPhaseEnergyCommunicationTime;
 	}
-	
 }

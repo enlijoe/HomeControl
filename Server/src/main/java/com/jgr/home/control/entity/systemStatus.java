@@ -12,85 +12,71 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "systemStatus")
 public class systemStatus {
-	//
-	// private fields
-	//
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+	private Long id;
 	
-	@Column(name = "nominal_full_pack_energy")
-	private long nominal_full_pack_energy;
+	@Column(name = "nominalFullPackEnergy")
+	private Long nominalFullPackEnergy;
 	
-	@Column(name = "nominal_energy_remaining")
-	private long nominal_energy_remaining;
+	@Column(name = "nominalEnergyRemaining")
+	private Long nominalEnergyRemaining;
 	
-	@Column(name = "system_island_state", length = 30)
-	private String system_island_state;
+	@Column(name = "systemIslandState", length = 30)
+	private String systemIslandState;
 	
-	@Column(name = "last_toggle_timestamp")
-	private Date last_toggle_timestamp;
-	
-	//
-	// Default Constructor
-	//
+	@Column(name = "lastToggleTimestamp")
+	private Date lastToggleTimestamp;
+
 	public systemStatus() {
 		
 	}
 	
-	//
-	// Parameterized Constructor
-	//
-	public systemStatus(long nominal_full_pack_energy, long nominal_energy_remaining, String system_island_state,
-			Date last_toggle_timestamp) {
-		this.nominal_full_pack_energy = nominal_full_pack_energy;
-		this.nominal_energy_remaining = nominal_energy_remaining;
-		this.system_island_state = system_island_state;
-		this.last_toggle_timestamp = last_toggle_timestamp;
+	public systemStatus(Long nominalFullPackEnergy, Long nominalEnergyRemaining, String systemIslandState,
+			Date lastToggleTimestamp) {
+		this.nominalFullPackEnergy = nominalFullPackEnergy;
+		this.nominalEnergyRemaining = nominalEnergyRemaining;
+		this.systemIslandState = systemIslandState;
+		this.lastToggleTimestamp = lastToggleTimestamp;
 	}
-	
-	
-	//
-	// Getters and Setters
-	//
-	public long getId() {
+
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
-	public long getNominal_full_pack_energy() {
-		return nominal_full_pack_energy;
+	public Long getNominalFullPackEnergy() {
+		return nominalFullPackEnergy;
 	}
 
-	public void setNominal_full_pack_energy(long nominal_full_pack_energy) {
-		this.nominal_full_pack_energy = nominal_full_pack_energy;
+	public void setNominalFullPackEnergy(Long nominalFullPackEnergy) {
+		this.nominalFullPackEnergy = nominalFullPackEnergy;
 	}
 
-	public long getNominal_energy_remaining() {
-		return nominal_energy_remaining;
+	public Long getNominalEnergyRemaining() {
+		return nominalEnergyRemaining;
 	}
 
-	public void setNominal_energy_remaining(long nominal_energy_remaining) {
-		this.nominal_energy_remaining = nominal_energy_remaining;
+	public void setNominalEnergyRemaining(Long nominalEnergyRemaining) {
+		this.nominalEnergyRemaining = nominalEnergyRemaining;
 	}
 
-	public String getSystem_island_state() {
-		return system_island_state;
+	public String getSystemIslandState() {
+		return systemIslandState;
 	}
 
-	public void setSystem_island_state(String system_island_state) {
-		this.system_island_state = system_island_state;
+	public void setSystemIslandState(String systemIslandState) {
+		this.systemIslandState = systemIslandState;
 	}
 
-	public Date getLast_toggle_timestamp() {
-		return last_toggle_timestamp;
+	public Date getLastToggleTimestamp() {
+		return lastToggleTimestamp;
 	}
 
-	public void setLast_toggle_timestamp(Date last_toggle_timestamp) {
-		this.last_toggle_timestamp = last_toggle_timestamp;
+	public void setLastToggleTimestamp(Date lastToggleTimestamp) {
+		this.lastToggleTimestamp = lastToggleTimestamp;
 	}
-	
 }
