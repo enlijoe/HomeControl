@@ -43,7 +43,6 @@ public class systemStatus {
 	//
 	public systemStatus(long nominal_full_pack_energy, long nominal_energy_remaining, String system_island_state,
 			Date last_toggle_timestamp) {
-		super();
 		this.nominal_full_pack_energy = nominal_full_pack_energy;
 		this.nominal_energy_remaining = nominal_energy_remaining;
 		this.system_island_state = system_island_state;

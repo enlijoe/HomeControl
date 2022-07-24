@@ -43,7 +43,6 @@ public class meters {
 	// Parameterized Constructor
 	//
 	public meters(String name, long energy_exported, long energy_imported, Date last_phase_energy_communication_time) {
-		super();
 		this.name = name;
 		this.energy_exported = energy_exported;
 		this.energy_imported = energy_imported;
