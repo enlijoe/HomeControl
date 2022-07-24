@@ -1,0 +1,198 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2950 2450 2    50   3State ~ 0
+D+
+Text HLabel 2950 2550 2    50   3State ~ 0
+D-
+$Comp
+L Connector:USB_B_Micro J3
+U 1 1 630064FD
+P 1600 2450
+F 0 "J3" H 1657 2917 50  0000 C CNN
+F 1 "USB_B_Micro" H 1657 2826 50  0000 C CNN
+F 2 "misc:USB_Micro-B_Amphenol_10118194-0011LF_Horizontal" H 1750 2400 50  0001 C CNN
+F 3 "~" H 1750 2400 50  0001 C CNN
+	1    1600 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2450 2400 2450
+Wire Wire Line
+	2950 2550 2300 2550
+Text HLabel 3750 2250 2    50   Output ~ 0
+Attach
+$Comp
+L Device:R R13
+U 1 1 6300831A
+P 3050 2250
+F 0 "R13" V 2843 2250 50  0000 C CNN
+F 1 "5.7k" V 2934 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 2250 50  0001 C CNN
+F 3 "~" H 3050 2250 50  0001 C CNN
+	1    3050 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 6300901C
+P 3250 2500
+F 0 "R14" H 3320 2546 50  0000 L CNN
+F 1 "10k" H 3320 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 2500 50  0001 C CNN
+F 3 "~" H 3250 2500 50  0001 C CNN
+	1    3250 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2250 3250 2250
+Wire Wire Line
+	3250 2350 3250 2250
+Connection ~ 3250 2250
+Wire Wire Line
+	2900 2250 2700 2250
+Wire Wire Line
+	2700 2050 2700 2250
+Connection ~ 2700 2250
+$Comp
+L Device:D_Schottky D21
+U 1 1 6300B694
+P 2700 1900
+F 0 "D21" V 2700 1980 50  0000 L CNN
+F 1 "D_Schottky" V 2745 1980 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-128" H 2700 1900 50  0001 C CNN
+F 3 "~" H 2700 1900 50  0001 C CNN
+	1    2700 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+24V #PWR0134
+U 1 1 6300C115
+P 2700 1650
+F 0 "#PWR0134" H 2700 1500 50  0001 C CNN
+F 1 "+24V" H 2715 1823 50  0000 C CNN
+F 2 "" H 2700 1650 50  0001 C CNN
+F 3 "" H 2700 1650 50  0001 C CNN
+	1    2700 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1750 2700 1700
+$Comp
+L Power_Protection:SP0503BAHT D20
+U 1 1 6300E0DD
+P 2400 2850
+F 0 "D20" H 2605 2896 50  0000 L CNN
+F 1 "SP0503BAHT" H 2605 2805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 2625 2800 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2525 2975 50  0001 C CNN
+	1    2400 2850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1900 2650
+Wire Wire Line
+	1600 2850 1600 2900
+Wire Wire Line
+	1600 2900 1550 2900
+Wire Wire Line
+	1500 2900 1500 2850
+$Comp
+L power:GND #PWR0135
+U 1 1 6301045C
+P 1550 2950
+F 0 "#PWR0135" H 1550 2700 50  0001 C CNN
+F 1 "GND" H 1555 2777 50  0001 C CNN
+F 2 "" H 1550 2950 50  0001 C CNN
+F 3 "" H 1550 2950 50  0001 C CNN
+	1    1550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2900 1550 2950
+Connection ~ 1550 2900
+Wire Wire Line
+	1550 2900 1500 2900
+Wire Wire Line
+	2300 2650 2300 2550
+Connection ~ 2300 2550
+Wire Wire Line
+	2300 2550 1900 2550
+Wire Wire Line
+	2400 2650 2400 2450
+Connection ~ 2400 2450
+Wire Wire Line
+	2400 2450 1900 2450
+Wire Wire Line
+	2500 2650 2500 2250
+Connection ~ 2500 2250
+Wire Wire Line
+	2500 2250 1900 2250
+$Comp
+L power:GND #PWR0136
+U 1 1 630115A0
+P 2400 3150
+F 0 "#PWR0136" H 2400 2900 50  0001 C CNN
+F 1 "GND" H 2405 2977 50  0001 C CNN
+F 2 "" H 2400 3150 50  0001 C CNN
+F 3 "" H 2400 3150 50  0001 C CNN
+	1    2400 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3050 2400 3150
+$Comp
+L power:GND #PWR0137
+U 1 1 630121B3
+P 3250 2750
+F 0 "#PWR0137" H 3250 2500 50  0001 C CNN
+F 1 "GND" H 3255 2577 50  0001 C CNN
+F 2 "" H 3250 2750 50  0001 C CNN
+F 3 "" H 3250 2750 50  0001 C CNN
+	1    3250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2650 3250 2750
+Text Label 2050 2450 2    50   ~ 0
+D+
+Text Label 2050 2550 2    50   ~ 0
+D-
+Text Label 2200 2250 2    50   ~ 0
+VBus
+Wire Wire Line
+	3250 2250 3750 2250
+Text Label 3700 2250 2    50   ~ 0
+UsbAttach
+Wire Wire Line
+	2500 2250 2700 2250
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 630ABF10
+P 2900 1650
+F 0 "#FLG0104" H 2900 1725 50  0001 C CNN
+F 1 "PWR_FLAG" H 2900 1823 50  0001 C CNN
+F 2 "" H 2900 1650 50  0001 C CNN
+F 3 "~" H 2900 1650 50  0001 C CNN
+	1    2900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1650 2900 1700
+Wire Wire Line
+	2900 1700 2700 1700
+Connection ~ 2700 1700
+Wire Wire Line
+	2700 1700 2700 1650
+$EndSCHEMATC

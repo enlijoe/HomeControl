@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 7
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Q_NPN_BEC Q?
+L Device:Q_NPN_BEC Q1
 U 1 1 62D5678F
 P 3450 4050
-F 0 "Q?" H 3641 4050 50  0000 L CNN
+F 0 "Q1" H 3641 4050 50  0000 L CNN
 F 1 "Q_NPN_BEC" H 3641 4005 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3650 4150 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/308/MMBT2222A-1301352.pdf" H 3450 4050 50  0001 C CNN
@@ -27,10 +27,10 @@ F 5 "True" H 3450 4050 50  0001 C CNN "Verified"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NPN_BEC Q?
+L Device:Q_NPN_BEC Q2
 U 1 1 62D56797
 P 3450 4600
-F 0 "Q?" H 3641 4600 50  0000 L CNN
+F 0 "Q2" H 3641 4600 50  0000 L CNN
 F 1 "Q_NPN_BEC" H 3641 4555 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3650 4700 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/308/MMBT2222A-1301352.pdf" H 3450 4600 50  0001 C CNN
@@ -40,10 +40,10 @@ F 5 "True" H 3450 4600 50  0001 C CNN "Verified"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 62D5679F
 P 3900 4050
-F 0 "R?" V 3693 4050 50  0000 C CNN
+F 0 "R9" V 3693 4050 50  0000 C CNN
 F 1 "10k" V 3784 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 4050 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3900 4050 50  0001 C CNN
@@ -53,10 +53,10 @@ F 5 "True" V 3900 4050 50  0001 C CNN "Verified"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R10
 U 1 1 62D567A7
 P 3900 4600
-F 0 "R?" V 3693 4600 50  0000 C CNN
+F 0 "R10" V 3693 4600 50  0000 C CNN
 F 1 "10k" V 3784 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 4600 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3900 4600 50  0001 C CNN
@@ -66,10 +66,10 @@ F 5 "True" V 3900 4600 50  0001 C CNN "Verified"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x05_Male J?
+L Connector:Conn_01x05_Male J1
 U 1 1 62D567AF
 P 4750 3950
-F 0 "J?" H 4850 4250 50  0000 R CNN
+F 0 "J1" H 4850 4250 50  0000 R CNN
 F 1 "Conn_01x05_Male" H 4722 3973 50  0001 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 4750 3950 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/670/pj_041h-1778780.pdf" H 4750 3950 50  0001 C CNN
@@ -79,10 +79,10 @@ F 5 "True" H 4750 3950 50  0001 C CNN "Verified"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C9
 U 1 1 62D567B7
 P 2800 4000
-F 0 "C?" H 2915 4046 50  0000 L CNN
+F 0 "C9" H 2915 4046 50  0000 L CNN
 F 1 ".1uF" H 2915 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2838 3850 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2800 4000 50  0001 C CNN
@@ -130,10 +130,10 @@ Wire Wire Line
 Wire Wire Line
 	3350 4850 3350 4800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0123
 U 1 1 62D567D6
 P 4450 4250
-F 0 "#PWR?" H 4450 4000 50  0001 C CNN
+F 0 "#PWR0123" H 4450 4000 50  0001 C CNN
 F 1 "GND" H 4455 4077 50  0001 C CNN
 F 2 "" H 4450 4250 50  0001 C CNN
 F 3 "" H 4450 4250 50  0001 C CNN
@@ -145,10 +145,10 @@ Wire Wire Line
 Wire Wire Line
 	4450 4150 4450 4250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0124
 U 1 1 62D567DE
 P 2800 4250
-F 0 "#PWR?" H 2800 4000 50  0001 C CNN
+F 0 "#PWR0124" H 2800 4000 50  0001 C CNN
 F 1 "GND" H 2805 4077 50  0001 C CNN
 F 2 "" H 2800 4250 50  0001 C CNN
 F 3 "" H 2800 4250 50  0001 C CNN
@@ -156,10 +156,10 @@ F 3 "" H 2800 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW?
+L Switch:SW_Push SW2
 U 1 1 62D567E6
 P 2350 3800
-F 0 "SW?" H 2350 3993 50  0000 C CNN
+F 0 "SW2" H 2350 3993 50  0000 C CNN
 F 1 "SW_Push" H 2350 3994 50  0001 C CNN
 F 2 "misc:button SMD" H 2350 4000 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/140/ESCHS00041_1-2544245.pdf" H 2350 4000 50  0001 C CNN
@@ -169,10 +169,10 @@ F 5 "True" H 2350 3800 50  0001 C CNN "Verified"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0125
 U 1 1 62D567EE
 P 2100 4100
-F 0 "#PWR?" H 2100 3850 50  0001 C CNN
+F 0 "#PWR0125" H 2100 3850 50  0001 C CNN
 F 1 "GND" H 2105 3927 50  0001 C CNN
 F 2 "" H 2100 4100 50  0001 C CNN
 F 3 "" H 2100 4100 50  0001 C CNN
@@ -200,11 +200,11 @@ Text Label 4300 4050 0    50   ~ 0
 RTS
 Text HLabel 4250 3750 0    50   Input ~ 0
 TX
-Text HLabel 4250 3850 0    50   Input ~ 0
+Text HLabel 4250 3850 0    50   Output ~ 0
 RX
 Wire Wire Line
 	4250 3750 4550 3750
-Text HLabel 2450 3300 0    50   Input ~ 0
+Text HLabel 2450 3300 0    50   Output ~ 0
 Enable
 Wire Wire Line
 	2550 3800 2800 3800
@@ -213,5 +213,9 @@ Wire Wire Line
 Wire Wire Line
 	2800 3300 2800 3800
 Text HLabel 4800 4850 2    50   Input ~ 0
+PGM
+Text Label 2800 3300 2    50   ~ 0
+Enable
+Text Label 4500 4850 2    50   ~ 0
 PGM
 $EndSCHEMATC

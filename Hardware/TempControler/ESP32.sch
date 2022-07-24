@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -13,392 +13,545 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3800 1250 1    50   UnSpc ~ 0
+Text HLabel 6150 1300 1    50   3State ~ 0
 D[0..7]
 Entry Wire Line
-	3700 2250 3800 2350
+	6050 2300 6150 2400
 Entry Wire Line
-	3700 2150 3800 2250
+	6050 2200 6150 2300
 Entry Wire Line
-	3700 2050 3800 2150
+	6050 2100 6150 2200
 Entry Wire Line
-	3700 1950 3800 2050
+	6050 2000 6150 2100
 Entry Wire Line
-	3700 1850 3800 1950
+	6050 1900 6150 2000
 Entry Wire Line
-	3700 1750 3800 1850
+	6050 1800 6150 1900
 Entry Wire Line
-	3700 1650 3800 1750
+	6050 1700 6150 1800
 Wire Wire Line
-	3700 1650 3300 1650
+	6050 1700 5650 1700
 Wire Wire Line
-	3700 1750 3300 1750
+	6050 1800 5650 1800
 Wire Wire Line
-	3700 1850 3300 1850
+	6050 1900 5650 1900
 Wire Wire Line
-	3700 1950 3300 1950
+	6050 2000 5650 2000
 Wire Wire Line
-	3700 2050 3300 2050
+	6050 2100 5650 2100
 Wire Wire Line
-	3700 2150 3300 2150
+	6050 2200 5650 2200
 Wire Wire Line
-	3700 2250 3300 2250
+	6050 2300 5650 2300
 Wire Wire Line
-	3700 2350 3300 2350
-Text Label 3400 2350 0    50   ~ 0
+	6050 2400 5650 2400
+Text Label 5750 2400 0    50   ~ 0
 D0
-Text Label 3400 2250 0    50   ~ 0
+Text Label 5750 2300 0    50   ~ 0
 D1
-Text Label 3400 2150 0    50   ~ 0
+Text Label 5750 2200 0    50   ~ 0
 D2
-Text Label 3400 2050 0    50   ~ 0
+Text Label 5750 2100 0    50   ~ 0
 D3
-Text Label 3400 1950 0    50   ~ 0
+Text Label 5750 2000 0    50   ~ 0
 D4
-Text Label 3400 1850 0    50   ~ 0
+Text Label 5750 1900 0    50   ~ 0
 D5
-Text Label 3400 1750 0    50   ~ 0
+Text Label 5750 1800 0    50   ~ 0
 D6
-Text Label 3400 1650 0    50   ~ 0
+Text Label 5750 1700 0    50   ~ 0
 D7
-Text Label 3800 1550 0    50   ~ 0
+Text Label 6150 1600 0    50   ~ 0
 D[0..7]
-Text HLabel 1450 1950 0    50   UnSpc ~ 0
+Text HLabel 3800 2000 0    50   Output ~ 0
 ~Reset
-Text HLabel 3550 3600 2    50   UnSpc ~ 0
+Text HLabel 5900 3650 2    50   Output ~ 0
 CS
-Text HLabel 1400 2050 0    50   UnSpc ~ 0
+Text HLabel 3800 2100 0    50   Output ~ 0
 RS
-Text HLabel 1450 1850 0    50   UnSpc ~ 0
+Text HLabel 3800 1900 0    50   Output ~ 0
 WR
-Text HLabel 3550 3500 2    50   UnSpc ~ 0
+Text HLabel 5900 3550 2    50   Output ~ 0
 RD
 Wire Wire Line
-	1450 1850 1700 1850
+	3800 1900 4050 1900
 Wire Wire Line
-	1450 1950 1700 1950
-Text HLabel 1450 3500 0    50   UnSpc ~ 0
-Temp
-Text HLabel 1450 3400 0    50   UnSpc ~ 0
-Humidity
-Text HLabel 900  1650 0    50   UnSpc ~ 0
+	3800 2000 4050 2000
+Text HLabel 3250 1700 0    50   Input ~ 0
 Enable
-Text HLabel 3550 3150 2    50   UnSpc ~ 0
+Text HLabel 5900 3200 2    50   Output ~ 0
 TX
-Text HLabel 3550 3250 2    50   UnSpc ~ 0
+Text HLabel 5900 3300 2    50   Input ~ 0
 RX
-Text HLabel 3550 3400 2    50   UnSpc ~ 0
+Text HLabel 5900 3450 2    50   Input ~ 0
 PGM
 Wire Wire Line
-	3550 3150 3300 3150
+	5900 3200 5650 3200
 Wire Wire Line
-	3550 3250 3300 3250
+	5900 3300 5650 3300
 $Comp
-L Device:CP C?
+L Device:CP C2
 U 1 1 62D639F6
-P 1300 1150
-F 0 "C?" H 1418 1196 50  0000 L CNN
-F 1 "CP" H 1418 1105 50  0000 L CNN
-F 2 "" H 1338 1000 50  0001 C CNN
-F 3 "~" H 1300 1150 50  0001 C CNN
-	1    1300 1150
+P 3650 1200
+F 0 "C2" H 3768 1246 50  0000 L CNN
+F 1 "22uF" H 3768 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 1050 50  0001 C CNN
+F 3 "~" H 3650 1200 50  0001 C CNN
+	1    3650 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L Device:CP C3
 U 1 1 62D647B2
-P 1700 1150
-F 0 "C?" H 1818 1196 50  0000 L CNN
-F 1 "CP" H 1818 1105 50  0000 L CNN
-F 2 "" H 1738 1000 50  0001 C CNN
-F 3 "~" H 1700 1150 50  0001 C CNN
-	1    1700 1150
+P 4050 1200
+F 0 "C3" H 4168 1246 50  0000 L CNN
+F 1 "22uF" H 4168 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4088 1050 50  0001 C CNN
+F 3 "~" H 4050 1200 50  0001 C CNN
+	1    4050 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 62D64FA0
-P 1000 1150
-F 0 "R?" H 1070 1196 50  0000 L CNN
-F 1 "R" H 1070 1105 50  0000 L CNN
-F 2 "" V 930 1150 50  0001 C CNN
-F 3 "~" H 1000 1150 50  0001 C CNN
-	1    1000 1150
+P 3350 1200
+F 0 "R2" H 3420 1246 50  0000 L CNN
+F 1 "10k" H 3420 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 1200 50  0001 C CNN
+F 3 "~" H 3350 1200 50  0001 C CNN
+	1    3350 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 1000 1700 950 
+	4050 1050 4050 1000
 Wire Wire Line
-	1700 950  1300 950 
+	4050 1000 3650 1000
 Wire Wire Line
-	1300 950  1300 1000
+	3650 1000 3650 1050
 Wire Wire Line
-	1700 1300 1700 1350
+	4050 1350 4050 1400
 Wire Wire Line
-	1700 1350 1500 1350
+	4050 1400 3850 1400
 Wire Wire Line
-	1300 1350 1300 1300
-Connection ~ 1300 950 
+	3650 1400 3650 1350
+Connection ~ 3650 1000
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0101
 U 1 1 62D6793B
-P 1700 800
-F 0 "#PWR?" H 1700 650 50  0001 C CNN
-F 1 "+3V3" H 1715 973 50  0000 C CNN
-F 2 "" H 1700 800 50  0001 C CNN
-F 3 "" H 1700 800 50  0001 C CNN
-	1    1700 800 
+P 4050 850
+F 0 "#PWR0101" H 4050 700 50  0001 C CNN
+F 1 "+3V3" H 4065 1023 50  0000 C CNN
+F 2 "" H 4050 850 50  0001 C CNN
+F 3 "" H 4050 850 50  0001 C CNN
+	1    4050 850 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 800  1700 950 
-Connection ~ 1700 950 
-Wire Wire Line
-	1400 2050 1700 2050
+	4050 850  4050 1000
+Connection ~ 4050 1000
 $Comp
-L ESP32:ESP32­S3­MINI U?
+L ESP32:ESP32­S3­MINI U1
 U 1 1 62D9C224
-P 2650 1700
-F 0 "U?" H 2500 -700 50  0000 C CNN
-F 1 "ESP32­S3­MINI" H 2500 -600 50  0000 C CNN
-F 2 "" H 2500 300 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/891/esp32_s3_mini_1_mini_1u_datasheet_en-2997643.pdf" H 2500 300 50  0001 C CNN
-F 4 "https://espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf" H 2650 2500 50  0001 C CNN "ESP32-A3 Datasheet"
-F 5 "https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_en.pdf" H 2500 2400 50  0001 C CNN "Tech Ref"
-	1    2650 1700
+P 5000 1750
+F 0 "U1" H 4850 -650 50  0000 C CNN
+F 1 "ESP32­S3­MINI" H 4850 -550 50  0000 C CNN
+F 2 "" H 4850 350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/891/esp32_s3_mini_1_mini_1u_datasheet_en-2997643.pdf" H 4850 350 50  0001 C CNN
+F 4 "https://espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf" H 5000 2550 50  0001 C CNN "ESP32-A3 Datasheet"
+F 5 "https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_en.pdf" H 4850 2450 50  0001 C CNN "Tech Ref"
+	1    5000 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 950  2050 950 
+	4050 1000 4400 1000
 Wire Wire Line
-	2050 950  2050 1400
+	4400 1000 4400 1450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 62DB7304
-P 1500 1400
-F 0 "#PWR?" H 1500 1150 50  0001 C CNN
-F 1 "GND" H 1505 1227 50  0000 C CNN
-F 2 "" H 1500 1400 50  0001 C CNN
-F 3 "" H 1500 1400 50  0001 C CNN
-	1    1500 1400
+P 3850 1450
+F 0 "#PWR0102" H 3850 1200 50  0001 C CNN
+F 1 "GND" H 3855 1277 50  0000 C CNN
+F 2 "" H 3850 1450 50  0001 C CNN
+F 3 "" H 3850 1450 50  0001 C CNN
+	1    3850 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 1350 1500 1400
-Connection ~ 1500 1350
+	3850 1400 3850 1450
+Connection ~ 3850 1400
 Wire Wire Line
-	1500 1350 1300 1350
+	3850 1400 3650 1400
 Wire Wire Line
-	1700 3850 1650 3850
+	4050 3900 4000 3900
 Wire Wire Line
-	1650 3850 1650 3950
+	4000 3900 4000 4000
 Wire Wire Line
-	1650 4650 1850 4650
+	4000 4700 4200 4700
 Wire Wire Line
-	3350 4650 3350 4250
+	5700 4700 5700 4300
 Wire Wire Line
-	3350 3850 3300 3850
+	5700 3900 5650 3900
 Wire Wire Line
-	3300 3950 3350 3950
-Connection ~ 3350 3950
+	5650 4000 5700 4000
+Connection ~ 5700 4000
 Wire Wire Line
-	3350 3950 3350 3850
+	5700 4000 5700 3900
 Wire Wire Line
-	3300 4050 3350 4050
-Connection ~ 3350 4050
+	5650 4100 5700 4100
+Connection ~ 5700 4100
 Wire Wire Line
-	3350 4050 3350 3950
+	5700 4100 5700 4000
 Wire Wire Line
-	3300 4150 3350 4150
-Connection ~ 3350 4150
+	5650 4200 5700 4200
+Connection ~ 5700 4200
 Wire Wire Line
-	3350 4150 3350 4050
+	5700 4200 5700 4100
 Wire Wire Line
-	3300 4250 3350 4250
-Connection ~ 3350 4250
+	5650 4300 5700 4300
+Connection ~ 5700 4300
 Wire Wire Line
-	3350 4250 3350 4150
+	5700 4300 5700 4200
 Wire Wire Line
-	3150 4600 3150 4650
-Connection ~ 3150 4650
+	5500 4650 5500 4700
+Connection ~ 5500 4700
 Wire Wire Line
-	3150 4650 3350 4650
+	5500 4700 5700 4700
 Wire Wire Line
-	3050 4600 3050 4650
-Connection ~ 3050 4650
+	5400 4650 5400 4700
+Connection ~ 5400 4700
 Wire Wire Line
-	3050 4650 3150 4650
+	5400 4700 5500 4700
 Wire Wire Line
-	2950 4600 2950 4650
-Connection ~ 2950 4650
+	5300 4650 5300 4700
+Connection ~ 5300 4700
 Wire Wire Line
-	2950 4650 3050 4650
+	5300 4700 5400 4700
 Wire Wire Line
-	2850 4600 2850 4650
-Connection ~ 2850 4650
+	5200 4650 5200 4700
+Connection ~ 5200 4700
 Wire Wire Line
-	2850 4650 2950 4650
+	5200 4700 5300 4700
 Wire Wire Line
-	2750 4600 2750 4650
-Connection ~ 2750 4650
+	5100 4650 5100 4700
+Connection ~ 5100 4700
 Wire Wire Line
-	2750 4650 2850 4650
+	5100 4700 5200 4700
 Wire Wire Line
-	2650 4600 2650 4650
-Connection ~ 2650 4650
+	5000 4650 5000 4700
+Connection ~ 5000 4700
 Wire Wire Line
-	2650 4650 2750 4650
+	5000 4700 5100 4700
 Wire Wire Line
-	2550 4600 2550 4650
-Connection ~ 2550 4650
+	4900 4650 4900 4700
+Connection ~ 4900 4700
 Wire Wire Line
-	2550 4650 2650 4650
+	4900 4700 5000 4700
 Wire Wire Line
-	2450 4600 2450 4650
-Connection ~ 2450 4650
+	4800 4650 4800 4700
+Connection ~ 4800 4700
 Wire Wire Line
-	2450 4650 2550 4650
+	4800 4700 4900 4700
 Wire Wire Line
-	2350 4600 2350 4650
-Connection ~ 2350 4650
+	4700 4650 4700 4700
+Connection ~ 4700 4700
 Wire Wire Line
-	2350 4650 2450 4650
+	4700 4700 4800 4700
 Wire Wire Line
-	2250 4600 2250 4650
-Connection ~ 2250 4650
+	4600 4650 4600 4700
+Connection ~ 4600 4700
 Wire Wire Line
-	2250 4650 2350 4650
+	4600 4700 4700 4700
 Wire Wire Line
-	2150 4600 2150 4650
-Connection ~ 2150 4650
+	4500 4650 4500 4700
+Connection ~ 4500 4700
 Wire Wire Line
-	2150 4650 2250 4650
+	4500 4700 4600 4700
 Wire Wire Line
-	2050 4600 2050 4650
-Connection ~ 2050 4650
+	4400 4650 4400 4700
+Connection ~ 4400 4700
 Wire Wire Line
-	2050 4650 2150 4650
+	4400 4700 4500 4700
 Wire Wire Line
-	1950 4600 1950 4650
-Connection ~ 1950 4650
+	4300 4650 4300 4700
+Connection ~ 4300 4700
 Wire Wire Line
-	1950 4650 2050 4650
+	4300 4700 4400 4700
 Wire Wire Line
-	1850 4600 1850 4650
-Connection ~ 1850 4650
+	4200 4650 4200 4700
+Connection ~ 4200 4700
 Wire Wire Line
-	1850 4650 1950 4650
+	4200 4700 4300 4700
 Wire Wire Line
-	1700 4250 1650 4250
-Connection ~ 1650 4250
+	4050 4300 4000 4300
+Connection ~ 4000 4300
 Wire Wire Line
-	1650 4250 1650 4650
+	4000 4300 4000 4700
 Wire Wire Line
-	1700 4150 1650 4150
-Connection ~ 1650 4150
+	4050 4200 4000 4200
+Connection ~ 4000 4200
 Wire Wire Line
-	1650 4150 1650 4250
+	4000 4200 4000 4300
 Wire Wire Line
-	1700 4050 1650 4050
-Connection ~ 1650 4050
+	4050 4100 4000 4100
+Connection ~ 4000 4100
 Wire Wire Line
-	1650 4050 1650 4150
+	4000 4100 4000 4200
 Wire Wire Line
-	1700 3950 1650 3950
-Connection ~ 1650 3950
+	4050 4000 4000 4000
+Connection ~ 4000 4000
 Wire Wire Line
-	1650 3950 1650 4050
+	4000 4000 4000 4100
 Wire Wire Line
-	3550 3400 3300 3400
+	5900 3450 5650 3450
 Wire Wire Line
-	1700 3400 1450 3400
-Wire Wire Line
-	1700 3500 1450 3500
+	4050 3550 3800 3550
 Entry Wire Line
-	3700 2350 3800 2450
-Text HLabel 3550 2450 2    50   UnSpc ~ 0
-W
-Text HLabel 3550 2550 2    50   UnSpc ~ 0
-Y
-Text HLabel 3550 2700 2    50   UnSpc ~ 0
-G
-Text HLabel 3550 2800 2    50   UnSpc ~ 0
-O
-Text HLabel 3550 2900 2    50   UnSpc ~ 0
-B
-Text HLabel 3550 3000 2    50   UnSpc ~ 0
-Y2
-Text HLabel 1450 3300 0    50   UnSpc ~ 0
-W2
-Text HLabel 1450 3200 0    50   UnSpc ~ 0
-E
+	6050 2400 6150 2500
 Wire Wire Line
-	3550 2450 3300 2450
+	4050 3250 3800 3250
 Wire Wire Line
-	3550 2550 3300 2550
+	4050 3450 3800 3450
 Wire Wire Line
-	3550 2700 3300 2700
+	3350 1350 3350 1700
 Wire Wire Line
-	3550 2800 3300 2800
+	3350 1700 4050 1700
 Wire Wire Line
-	3550 2900 3300 2900
+	3350 1050 3350 1000
 Wire Wire Line
-	3550 3000 3300 3000
+	3350 1000 3650 1000
 Wire Wire Line
-	1700 3200 1450 3200
+	3350 1700 3250 1700
+Connection ~ 3350 1700
 Wire Wire Line
-	1700 3300 1450 3300
+	5900 3550 5650 3550
 Wire Wire Line
-	1000 1300 1000 1650
-Wire Wire Line
-	1000 1650 1700 1650
-Wire Wire Line
-	1000 1000 1000 950 
-Wire Wire Line
-	1000 950  1300 950 
-Wire Wire Line
-	1000 1650 900  1650
-Connection ~ 1000 1650
-Wire Wire Line
-	3550 3500 3300 3500
-Wire Wire Line
-	3550 3600 3300 3600
+	5900 3650 5650 3650
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 62E4A9BF
-P 3600 3900
-F 0 "R?" H 3670 3946 50  0000 L CNN
-F 1 "R" H 3670 3855 50  0000 L CNN
-F 2 "" V 3530 3900 50  0001 C CNN
-F 3 "~" H 3600 3900 50  0001 C CNN
-	1    3600 3900
+P 5950 3950
+F 0 "R3" H 6020 3996 50  0000 L CNN
+F 1 "10k" H 6020 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 3950 50  0001 C CNN
+F 3 "~" H 5950 3950 50  0001 C CNN
+	1    5950 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 62E4B4D0
-P 3600 4150
-F 0 "#PWR?" H 3600 3900 50  0001 C CNN
-F 1 "GND" H 3605 3977 50  0000 C CNN
-F 2 "" H 3600 4150 50  0001 C CNN
-F 3 "" H 3600 4150 50  0001 C CNN
-	1    3600 4150
+P 5950 4200
+F 0 "#PWR0103" H 5950 3950 50  0001 C CNN
+F 1 "GND" H 5955 4027 50  0000 C CNN
+F 2 "" H 5950 4200 50  0001 C CNN
+F 3 "" H 5950 4200 50  0001 C CNN
+	1    5950 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 3700 3600 3700
+	5650 3750 5950 3750
 Wire Wire Line
-	3600 3700 3600 3750
+	5950 3750 5950 3800
 Wire Wire Line
-	3600 4050 3600 4150
-Text HLabel 1450 3700 0    50   UnSpc ~ 0
+	5950 4100 5950 4200
+Text HLabel 3800 3750 0    50   3State ~ 0
 D+
-Text HLabel 1450 3600 0    50   UnSpc ~ 0
+Text HLabel 3800 3650 0    50   3State ~ 0
 D-
 Wire Wire Line
-	1450 3600 1700 3600
+	3800 3650 4050 3650
 Wire Wire Line
-	1450 3700 1700 3700
+	3800 3750 4050 3750
+Text HLabel 6150 2600 2    50   Output ~ 0
+W1_Ctl
+Text HLabel 6150 2700 2    50   Output ~ 0
+W2_Ctl
+Text HLabel 3800 2500 0    50   Output ~ 0
+OB_Ctl
+Text HLabel 3800 2400 0    50   Output ~ 0
+G_Ctl
+Text HLabel 6150 2800 2    50   Output ~ 0
+Y1_Ctl
+Text HLabel 6150 2900 2    50   Output ~ 0
+Y2_Ctl
+Text HLabel 6150 3000 2    50   Output ~ 0
+E_Ctl
+Text HLabel 6150 3100 2    50   Output ~ 0
+X_Ctl
+Text HLabel 3800 2600 0    50   Output ~ 0
+S_Ctl
+Text HLabel 3800 2850 0    50   Output ~ 0
+B_Sel
+Text HLabel 3800 2700 0    50   Output ~ 0
+O_Sel
+Text HLabel 3800 3250 0    50   Input ~ 0
+Rc_Sence
+Text HLabel 3800 3150 0    50   Input ~ 0
+Rh_Sence
+Wire Wire Line
+	3800 2100 4050 2100
+Wire Wire Line
+	6150 2600 6000 2600
+Wire Wire Line
+	6000 2600 6000 2500
+Wire Wire Line
+	5650 2500 6000 2500
+Wire Wire Line
+	6150 2700 5950 2700
+Wire Wire Line
+	5950 2700 5950 2600
+Wire Wire Line
+	5950 2600 5650 2600
+Wire Wire Line
+	6150 2800 5900 2800
+Wire Wire Line
+	5900 2800 5900 2750
+Wire Wire Line
+	5900 2750 5650 2750
+Wire Wire Line
+	6150 2900 5900 2900
+Wire Wire Line
+	5900 2900 5900 2850
+Wire Wire Line
+	5900 2850 5650 2850
+Wire Wire Line
+	6050 3000 6050 2950
+Wire Wire Line
+	6050 2950 5650 2950
+Wire Wire Line
+	6050 3000 6150 3000
+Wire Wire Line
+	6150 3100 6050 3100
+Wire Wire Line
+	6050 3100 6050 3050
+Wire Wire Line
+	6050 3050 5650 3050
+Wire Wire Line
+	4050 2700 3800 2700
+Wire Wire Line
+	4050 2850 3800 2850
+Wire Wire Line
+	4050 2950 3800 2950
+Wire Wire Line
+	4050 3050 3800 3050
+Wire Wire Line
+	4050 3150 3800 3150
+Text HLabel 3800 2950 0    50   Input ~ 0
+Attach
+Wire Wire Line
+	4050 2600 3800 2600
+Wire Wire Line
+	3800 2500 4050 2500
+Text HLabel 3800 3050 0    50   Input ~ 0
+bSence
+Wire Wire Line
+	4050 2400 3800 2400
+$Comp
+L Device:R R1
+U 1 1 6303B2B5
+P 2300 2100
+F 0 "R1" H 2230 2054 50  0000 R CNN
+F 1 "10k" H 2230 2145 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 2100 50  0001 C CNN
+F 3 "~" H 2300 2100 50  0001 C CNN
+	1    2300 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 6303D06A
+P 2300 1850
+F 0 "#PWR0104" H 2300 1700 50  0001 C CNN
+F 1 "+3V3" H 2315 2023 50  0000 C CNN
+F 2 "" H 2300 1850 50  0001 C CNN
+F 3 "" H 2300 1850 50  0001 C CNN
+	1    2300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6303DE48
+P 2300 2550
+F 0 "SW1" V 2400 2800 50  0000 R CNN
+F 1 "SW_Push" V 2255 2502 50  0001 R CNN
+F 2 "misc:button SMD" H 2300 2750 50  0001 C CNN
+F 3 "~" H 2300 2750 50  0001 C CNN
+	1    2300 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 6303F9B3
+P 2300 2850
+F 0 "#PWR0105" H 2300 2600 50  0001 C CNN
+F 1 "GND" H 2305 2677 50  0000 C CNN
+F 2 "" H 2300 2850 50  0001 C CNN
+F 3 "" H 2300 2850 50  0001 C CNN
+	1    2300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 630404F9
+P 2600 2500
+F 0 "C1" H 2715 2546 50  0000 L CNN
+F 1 ".1uF" H 2715 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 2350 50  0001 C CNN
+F 3 "~" H 2600 2500 50  0001 C CNN
+	1    2600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 630413AF
+P 2600 2850
+F 0 "#PWR0106" H 2600 2600 50  0001 C CNN
+F 1 "GND" H 2605 2677 50  0000 C CNN
+F 2 "" H 2600 2850 50  0001 C CNN
+F 3 "" H 2600 2850 50  0001 C CNN
+	1    2600 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1850 2300 1950
+Wire Wire Line
+	2300 2250 2300 2300
+Wire Wire Line
+	2300 2300 2600 2300
+Wire Wire Line
+	2600 2300 2600 2350
+Connection ~ 2300 2300
+Wire Wire Line
+	2300 2300 2300 2350
+Wire Wire Line
+	2600 2650 2600 2850
+Wire Wire Line
+	2300 2750 2300 2850
+Wire Wire Line
+	4050 2300 2600 2300
+Connection ~ 2600 2300
+Text Label 3100 2300 2    50   ~ 0
+WiFiSetup
+NoConn ~ 4050 2200
+Text HLabel 3800 3450 0    50   Input ~ 0
+SDA
+Text HLabel 3800 3550 0    50   Output ~ 0
+SCL
+NoConn ~ 4050 3350
+$Comp
+L power:GND #PWR0138
+U 1 1 630A2E85
+P 4800 4800
+F 0 "#PWR0138" H 4800 4550 50  0001 C CNN
+F 1 "GND" H 4805 4627 50  0001 C CNN
+F 2 "" H 4800 4800 50  0001 C CNN
+F 3 "" H 4800 4800 50  0001 C CNN
+	1    4800 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4700 4800 4800
 Wire Bus Line
-	3800 1250 3800 2450
+	6150 1300 6150 2500
 $EndSCHEMATC
