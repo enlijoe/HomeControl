@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "meters")
-public class meters {
+public class Meters {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
@@ -28,11 +28,11 @@ public class meters {
 	@Column(name = "lastPhaseEnergyCommunicationTime")
 	private Date lastPhaseEnergyCommunicationTime;
 	
-	public meters() {
+	public Meters() {
 		
 	}
 	
-	public meters(String name, long energy_exported, long energy_imported, Date last_phase_energy_communication_time) {
+	public Meters(String name, long energy_exported, long energy_imported, Date last_phase_energy_communication_time) {
 		this.name = name;
 		this.energyExported = energy_exported;
 		this.energyImported = energy_imported;

@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "systemStatus")
-public class systemStatus {
+public class SystemStatus {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
@@ -28,11 +28,11 @@ public class systemStatus {
 	@Column(name = "lastToggleTimestamp")
 	private Date lastToggleTimestamp;
 
-	public systemStatus() {
+	public SystemStatus() {
 		
 	}
 	
-	public systemStatus(Long nominalFullPackEnergy, Long nominalEnergyRemaining, String systemIslandState,
+	public SystemStatus(Long nominalFullPackEnergy, Long nominalEnergyRemaining, String systemIslandState,
 			Date lastToggleTimestamp) {
 		this.nominalFullPackEnergy = nominalFullPackEnergy;
 		this.nominalEnergyRemaining = nominalEnergyRemaining;
