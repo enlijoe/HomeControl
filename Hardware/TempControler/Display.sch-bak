@@ -22,6 +22,7 @@ F 1 "MAR3501" H 4700 3684 50  0000 C CNN
 F 2 "" H 4700 3250 50  0001 C CNN
 F 3 "https://www.waveshare.com/w/upload/7/78/ILI9486_Datasheet.pdf" H 4700 3250 50  0001 C CNN
 F 4 "http://www.lcdwiki.com/res/MAR3501/3.5inch_Arduino_8BIT_Module_MAR3501_User_Manual_EN.pdf" H 5050 3800 50  0001 C CNN "User Manual"
+F 5 "N/A" H 4700 2850 50  0001 C CNN "Mouser"
 	1    4700 2850
 	1    0    0    -1  
 $EndComp

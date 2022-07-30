@@ -96,7 +96,8 @@ P 3650 1200
 F 0 "C2" H 3768 1246 50  0000 L CNN
 F 1 "22uF" H 3768 1155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 1050 50  0001 C CNN
-F 3 "~" H 3650 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yago_s_a0011397150_1-2286655.pdf" H 3650 1200 50  0001 C CNN
+F 4 "603-CC0603MPX5R6B226" H 3650 1200 50  0001 C CNN "Mouser"
 	1    3650 1200
 	1    0    0    -1  
 $EndComp
@@ -107,7 +108,8 @@ P 4050 1200
 F 0 "C3" H 4168 1246 50  0000 L CNN
 F 1 "22uF" H 4168 1155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4088 1050 50  0001 C CNN
-F 3 "~" H 4050 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yago_s_a0011397150_1-2286655.pdf" H 4050 1200 50  0001 C CNN
+F 4 "603-CC0603MPX5R6B226" H 4050 1200 50  0001 C CNN "Mouser"
 	1    4050 1200
 	1    0    0    -1  
 $EndComp
@@ -118,7 +120,8 @@ P 3350 1200
 F 0 "R2" H 3420 1246 50  0000 L CNN
 F 1 "10k" H 3420 1155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 1200 50  0001 C CNN
-F 3 "~" H 3350 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3350 1200 50  0001 C CNN
+F 4 "667-ERJ-3EKF1002V" H 3350 1200 50  0001 C CNN "Mouser"
 	1    3350 1200
 	1    0    0    -1  
 $EndComp
@@ -159,6 +162,7 @@ F 2 "" H 4850 350 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/891/esp32_s3_mini_1_mini_1u_datasheet_en-2997643.pdf" H 4850 350 50  0001 C CNN
 F 4 "https://espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf" H 5000 2550 50  0001 C CNN "ESP32-A3 Datasheet"
 F 5 "https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_en.pdf" H 4850 2450 50  0001 C CNN "Tech Ref"
+F 6 "356-ESP32-S3-MINI1N8" H 5000 1750 50  0001 C CNN "Mouser"
 	1    5000 1750
 	1    0    0    -1  
 $EndComp
@@ -334,7 +338,8 @@ P 5950 3950
 F 0 "R3" H 6020 3996 50  0000 L CNN
 F 1 "10k" H 6020 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 3950 50  0001 C CNN
-F 3 "~" H 5950 3950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 5950 3950 50  0001 C CNN
+F 4 "667-ERJ-3EKF1002V" H 5950 3950 50  0001 C CNN "Mouser"
 	1    5950 3950
 	1    0    0    -1  
 $EndComp
@@ -454,7 +459,8 @@ P 2300 2100
 F 0 "R1" H 2230 2054 50  0000 R CNN
 F 1 "10k" H 2230 2145 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 2100 50  0001 C CNN
-F 3 "~" H 2300 2100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 2300 2100 50  0001 C CNN
+F 4 "667-ERJ-3EKF1002V" H 2300 2100 50  0001 C CNN "Mouser"
 	1    2300 2100
 	-1   0    0    1   
 $EndComp
@@ -476,7 +482,8 @@ P 2300 2550
 F 0 "SW1" V 2400 2800 50  0000 R CNN
 F 1 "SW_Push" V 2255 2502 50  0001 R CNN
 F 2 "misc:button SMD" H 2300 2750 50  0001 C CNN
-F 3 "~" H 2300 2750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/140/P090002-267756.pdf" H 2300 2750 50  0001 C CNN
+F 4 "612-LL3301NF065QG" H 2300 2550 50  0001 C CNN "Mouser"
 	1    2300 2550
 	0    -1   -1   0   
 $EndComp
@@ -498,7 +505,8 @@ P 2600 2500
 F 0 "C1" H 2715 2546 50  0000 L CNN
 F 1 ".1uF" H 2715 2455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 2350 50  0001 C CNN
-F 3 "~" H 2600 2500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2600 2500 50  0001 C CNN
+F 4 "80-C0805C104K5R" H 2600 2500 50  0001 C CNN "Mouser"
 	1    2600 2500
 	1    0    0    -1  
 $EndComp

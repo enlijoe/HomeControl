@@ -22,7 +22,7 @@ F 1 "Q_NPN_BEC" H 3641 4005 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3650 4150 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/308/MMBT2222A-1301352.pdf" H 3450 4050 50  0001 C CNN
 F 4 "512-MMBT2222AD87Z" H 3450 4050 50  0001 C CNN "Mouser"
-F 5 "True" H 3450 4050 50  0001 C CNN "Verified"
+F 5 "" H 3450 4050 50  0001 C CNN "Verified"
 	1    3450 4050
 	-1   0    0    -1  
 $EndComp
@@ -35,7 +35,7 @@ F 1 "Q_NPN_BEC" H 3641 4555 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3650 4700 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/308/MMBT2222A-1301352.pdf" H 3450 4600 50  0001 C CNN
 F 4 "512-MMBT2222AD87Z" H 3450 4600 50  0001 C CNN "Mouser"
-F 5 "True" H 3450 4600 50  0001 C CNN "Verified"
+F 5 "" H 3450 4600 50  0001 C CNN "Verified"
 	1    3450 4600
 	-1   0    0    -1  
 $EndComp
@@ -48,7 +48,7 @@ F 1 "10k" V 3784 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 4050 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3900 4050 50  0001 C CNN
 F 4 "667-ERJ-3EKF1002V" V 3900 4050 50  0001 C CNN "Mouser"
-F 5 "True" V 3900 4050 50  0001 C CNN "Verified"
+F 5 "" V 3900 4050 50  0001 C CNN "Verified"
 	1    3900 4050
 	0    1    1    0   
 $EndComp
@@ -61,7 +61,7 @@ F 1 "10k" V 3784 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 4600 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3900 4600 50  0001 C CNN
 F 4 "667-ERJ-3EKF1002V" V 3900 4600 50  0001 C CNN "Mouser"
-F 5 "True" V 3900 4600 50  0001 C CNN "Verified"
+F 5 "" V 3900 4600 50  0001 C CNN "Verified"
 	1    3900 4600
 	0    1    1    0   
 $EndComp
@@ -72,9 +72,9 @@ P 4750 3950
 F 0 "J1" H 4850 4250 50  0000 R CNN
 F 1 "Conn_01x05_Male" H 4722 3973 50  0001 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 4750 3950 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/670/pj_041h-1778780.pdf" H 4750 3950 50  0001 C CNN
+F 3 "N/A" H 4750 3950 50  0001 C CNN
 F 4 "Hand Made" H 4750 3950 50  0001 C CNN "Mouser"
-F 5 "True" H 4750 3950 50  0001 C CNN "Verified"
+F 5 "" H 4750 3950 50  0001 C CNN "Verified"
 	1    4750 3950
 	-1   0    0    1   
 $EndComp
@@ -87,7 +87,7 @@ F 1 ".1uF" H 2915 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2838 3850 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2800 4000 50  0001 C CNN
 F 4 "80-C0805C104K5R" H 2800 4000 50  0001 C CNN "Mouser"
-F 5 "True" H 2800 4000 50  0001 C CNN "Verified"
+F 5 "" H 2800 4000 50  0001 C CNN "Verified"
 	1    2800 4000
 	1    0    0    -1  
 $EndComp
@@ -162,9 +162,9 @@ P 2350 3800
 F 0 "SW2" H 2350 3993 50  0000 C CNN
 F 1 "SW_Push" H 2350 3994 50  0001 C CNN
 F 2 "misc:button SMD" H 2350 4000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/140/ESCHS00041_1-2544245.pdf" H 2350 4000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/140/P090002-267756.pdf" H 2350 4000 50  0001 C CNN
 F 4 "612-LL3301NF065QG" H 2350 3800 50  0001 C CNN "Mouser"
-F 5 "True" H 2350 3800 50  0001 C CNN "Verified"
+F 5 "" H 2350 3800 50  0001 C CNN "Verified"
 	1    2350 3800
 	1    0    0    -1  
 $EndComp

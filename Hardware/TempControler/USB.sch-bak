@@ -23,8 +23,9 @@ U 1 1 630064FD
 P 1600 2450
 F 0 "J3" H 1657 2917 50  0000 C CNN
 F 1 "USB_B_Micro" H 1657 2826 50  0000 C CNN
-F 2 "" H 1750 2400 50  0001 C CNN
-F 3 "~" H 1750 2400 50  0001 C CNN
+F 2 "misc:USB_Micro-B_Amphenol_10118194-0011LF_Horizontal" H 1750 2400 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/micro-usb-101181940011lf.html" H 1750 2400 50  0001 C CNN
+F 4 "649-10118194-0011LF" H 1600 2450 50  0001 C CNN "Mouser"
 	1    1600 2450
 	1    0    0    -1  
 $EndComp
@@ -39,9 +40,10 @@ L Device:R R13
 U 1 1 6300831A
 P 3050 2250
 F 0 "R13" V 2843 2250 50  0000 C CNN
-F 1 "5.7k" V 2934 2250 50  0000 C CNN
+F 1 "5.6k" V 2934 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 2250 50  0001 C CNN
-F 3 "~" H 3050 2250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 3050 2250 50  0001 C CNN
+F 4 "71-CRCW06035K60FKEAC" H 3050 2250 50  0001 C CNN "Mouser"
 	1    3050 2250
 	0    1    1    0   
 $EndComp
@@ -52,7 +54,8 @@ P 3250 2500
 F 0 "R14" H 3320 2546 50  0000 L CNN
 F 1 "10k" H 3320 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 2500 50  0001 C CNN
-F 3 "~" H 3250 2500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3250 2500 50  0001 C CNN
+F 4 "667-ERJ-3EKF1002V" H 3250 2500 50  0001 C CNN "Mouser"
 	1    3250 2500
 	1    0    0    -1  
 $EndComp
@@ -71,9 +74,10 @@ L Device:D_Schottky D21
 U 1 1 6300B694
 P 2700 1900
 F 0 "D21" V 2700 1980 50  0000 L CNN
-F 1 "D_Schottky" V 2745 1980 50  0001 L CNN
+F 1 "RB080LAM-30TR" V 2745 1980 50  0001 L CNN
 F 2 "Diode_SMD:D_SOD-128" H 2700 1900 50  0001 C CNN
-F 3 "~" H 2700 1900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/348/rb080lam_30tr_e-1869813.pdf" H 2700 1900 50  0001 C CNN
+F 4 "755-RB080LAM-30TR" H 2700 1900 50  0001 C CNN "Mouser"
 	1    2700 1900
 	0    1    1    0   
 $EndComp
@@ -98,6 +102,7 @@ F 0 "D20" H 2605 2896 50  0000 L CNN
 F 1 "SP0503BAHT" H 2605 2805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-143" H 2625 2800 50  0001 L CNN
 F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2525 2975 50  0001 C CNN
+F 4 "576-SP0503BAHTG" H 2400 2850 50  0001 C CNN "Mouser"
 	1    2400 2850
 	1    0    0    -1  
 $EndComp
