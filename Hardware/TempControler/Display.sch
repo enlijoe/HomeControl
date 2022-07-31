@@ -17,9 +17,11 @@ $Comp
 L TFT_LCD_Displays:MAR3501 U2
 U 1 1 62D5108A
 P 4700 2850
+AR Path="/62D5108A" Ref="U2"  Part="1" 
+AR Path="/62D4790F/62D5108A" Ref="U2"  Part="1" 
 F 0 "U2" H 4700 3775 50  0000 C CNN
 F 1 "MAR3501" H 4700 3684 50  0000 C CNN
-F 2 "" H 4700 3250 50  0001 C CNN
+F 2 "Shields:Shield_MEGA-LCD" H 4700 3250 50  0001 C CNN
 F 3 "https://www.waveshare.com/w/upload/7/78/ILI9486_Datasheet.pdf" H 4700 3250 50  0001 C CNN
 F 4 "http://www.lcdwiki.com/res/MAR3501/3.5inch_Arduino_8BIT_Module_MAR3501_User_Manual_EN.pdf" H 5050 3800 50  0001 C CNN "User Manual"
 F 5 "N/A" H 4700 2850 50  0001 C CNN "Mouser"

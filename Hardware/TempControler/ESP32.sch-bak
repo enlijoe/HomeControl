@@ -158,7 +158,7 @@ U 1 1 62D9C224
 P 5000 1750
 F 0 "U1" H 4850 -650 50  0000 C CNN
 F 1 "ESP32­S3­MINI" H 4850 -550 50  0000 C CNN
-F 2 "" H 4850 350 50  0001 C CNN
+F 2 "ESP32:ESP32-S3-MINI-1" H 4850 350 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/891/esp32_s3_mini_1_mini_1u_datasheet_en-2997643.pdf" H 4850 350 50  0001 C CNN
 F 4 "https://espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf" H 5000 2550 50  0001 C CNN "ESP32-A3 Datasheet"
 F 5 "https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_en.pdf" H 4850 2450 50  0001 C CNN "Tech Ref"
